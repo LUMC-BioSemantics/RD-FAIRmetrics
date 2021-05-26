@@ -1,6 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix this: <https://raw.githubusercontent.com/LUMC-BioSemantics/RD-FAIRmetrics/main/EJP_RD_R1> .
-@prefix sub: <https://raw.githubusercontent.com/LUMC-BioSemantics/RD-FAIRmetrics/main/EJP_RD_R1#> .
+@prefix this: <https://raw.githubusercontent.com/LUMC-BioSemantics/RD-FAIRmetrics/main/RD-R1> .
+@prefix sub: <https://raw.githubusercontent.com/LUMC-BioSemantics/RD-FAIRmetrics/main/RD-R1#> .
 @prefix fairmi: <https://w3id.org/fair/maturity_indicator/terms/Gen2/> .
 @prefix dce: <http://purl.org/dc/elements/1.1/> .
 @prefix np: <http://www.nanopub.org/nschema#> .
@@ -22,7 +22,7 @@ sub:Head {
 
 sub:assertion {
   fairmi:EJP_RD_R1 a fairmi:FAIR-Maturity-Indicator ;
-    rdfs:label "FAIR Maturity Indicator of RD R1" ;
+    rdfs:label "FAIR Maturity Indicator of RD-R1" ;
     foaf:primaryTopic fair:R1 ;
     fairmi:comments "" ;
     fairmi:examples "" ;
@@ -35,7 +35,7 @@ sub:assertion {
 sub:provenance {
   sub:_1 dce:format "text/markdown" ;
     a void:Dataset , dcat:Distribution ;
-    dcat:downloadURL <https://github.com/LUMC-BioSemantics/RD-FAIRmetrics/blob/main/EJP_RD_R1.md> .
+    dcat:downloadURL <https://github.com/LUMC-BioSemantics/RD-FAIRmetrics/blob/main/RD-R1.md> .
   sub:assertion pav:authoredBy orcid:0000-0001-6960-357X , orcid:0000-0002-8691-772X , orcid:0000-0002-1215-167X , orcid:0000-0003-4818-2360 , orcid:0000-0003-0169-8159 ;
     dcat:distribution sub:_1 .
 }
