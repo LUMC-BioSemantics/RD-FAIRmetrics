@@ -1,4 +1,4 @@
-# TITLE:  FAIR Maturity Indicator of RD-R1
+# TITLE:  FAIR Maturity Indicator RD-R1
 
 ## Authors:
 Mark D. Wilkinson, ORCID:0000-0001-6960-357X
@@ -13,7 +13,7 @@ Núria Queralt Rosinach, ORCID:0000-0003-0169-8159
 #### Accepted: pending
 
 
-### Maturity Indicator Identifier: RD-R1 [https://raw.githubusercontent.com/LUMC-BioSemantics/RD-FAIRmetrics/main/metrics/RD-R1](https://raw.githubusercontent.com/LUMC-BioSemantics/RD-FAIRmetrics/main/metrics/RD-R1)
+### Maturity Indicator Identifier: RD-R1 [https://w3id.org/rd-fairmetrics/RD-R1](https://w3id.org/rd-fairmetrics/RD-R1)
 
 ### Maturity Indicator Name: Use of Rare Disease (RD) specific ORDO or HPO ontologies in the metadata
 ----
@@ -43,7 +43,6 @@ One or more of either or both matches is considered a success.  Test returns bin
 RD digital resources
 
 ### Examples of good practices (that would score well on this assessment)
-
 http://fdp.duchennedatafoundation.org:8080/dataset/d877ac76-87ba-461f-803b-3a8a90a2e965
 
 ### Comments
