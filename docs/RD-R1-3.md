@@ -5,6 +5,8 @@ Rajaram Kaliyaperumal, ORCID:0000-0002-1215-167X
 Núria Queralt Rosinach, ORCID:0000-0003-0169-8159
 Matthijs Sloep, ORCID:0000-0003-3602-1885
 Karolis Cremers, ORCID:0000-0002-1756-3905
+Vincent Emonet, ORCID:0000-0002-1501-1082
+César Henrique Bernabé, ORCID:0000-0003-1795-5930
 
 
 #### Publication Date: 2022-01-20
