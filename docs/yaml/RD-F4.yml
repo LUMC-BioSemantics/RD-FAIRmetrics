@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+ version: 'Hvst-1.4.0:RD-F4-Tst-0.0.3'
+ title: "FAIR Metrics Domain Specific - Use of Rare Disease (RD) specific Search Engines to find the (meta)data of the indexed resource"
+ x-tests_metric: 'https://w3id.org/rd-fairmetrics/RD-R1'
+ description: >-
+   We extract the title property of the resource from the metadata document and check if the RD specific search engine returns the metadata document of the resource that we are testing.
+ x-applies_to_principle: "F4"
+ contact:
+  x-organization: "EJP-RD & ELIXIR Metrics for Rare Disease"
+  url: "https://github.com/LUMC-BioSemantics/RD-FAIRmetrics"
+  name: 'Rajaram Kaliyaperumal'
+  x-role: "responsible developer"
+  email: r.kaliyaperumal@lumc.nl
+  x-id: '0000-0002-1215-167X'
+host: w3id.org/rd-fairness-tests
+basePath: /tests/rd_metadata_ordo_hpo/
+schemes:
+  - https
+paths:
+ RD-F4:
+  post:
+   parameters:
+    - name: content
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/schemas'
+   consumes:
+     - application/json
+   produces:
+     - application/json
+   responses:
+     "200":
+       description: >-
+        The response is a binary (1/0), success or failure
+definitions:
+  schemas:
+    required:
+     - subject
+    properties:
+        subject:
+          type: string
+          description: >-
+            the GUID being tested
