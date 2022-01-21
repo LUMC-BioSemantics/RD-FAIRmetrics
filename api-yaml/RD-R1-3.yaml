@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
- version: 'Hvst-1.4.0:RD-R1-3-Tst-0.0.1'
+ version: 'Hvst-1.4.0:RD-R1-3-Tst-0.0.3'
  title: "FAIR Metrics Domain Specific - RD-R1.3 Metadata conforms to EJP RD model"
  x-tests_metric: 'https://w3id.org/rd-fairmetrics/RD-R1-3'
  description: >-
@@ -18,7 +18,7 @@ basePath: /tests/
 schemes:
   - https
 paths:
- rd_metadata_ejprd_model:
+ RD-R1-3:
   post:
    parameters:
     - name: content
@@ -40,6 +40,6 @@ definitions:
      - subject
     properties:
         subject:
-          type: Metadata RDF/Turtle file
+          type: string
           description: >-
-            the Metadata RDF/Turtle file being tested
+            the GUID being tested
