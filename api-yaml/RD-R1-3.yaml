@@ -1,0 +1,45 @@
+swagger: '2.0'
+info:
+ version: 'Hvst-1.4.0:RD-R1-3-Tst-0.0.1'
+ title: "FAIR Metrics Domain Specific - RD-R1-3 Metadata conforms to EJP RD model"
+ x-tests_metric: 'https://w3id.org/rd-fairmetrics/RD-R1-3'
+ description: >-
+   A domain-specific test for metadata of resources in the Rare Disease domain. It tests if the metadata is structured conforming to the EJP RD DCAT-based metadata model. No failures in the ShEx validation of the metadata content of the resource against the EJP RD ShEx shapes, will be sufficient to pass the test.
+ x-applies_to_principle: "R1.3"
+ contact:
+  x-organization: "EJP-RD & ELIXIR Metrics for Rare Disease"
+  url: "https://github.com/LUMC-BioSemantics/RD-FAIRmetrics"
+  name: 'Núria Queralt Rosinach'
+  x-role: "responsible developer"
+  email: n.queralt_rosinach@lumc.nl
+  x-id: '0000-0003-0169-8159'
+host: w3id.org/rd-fairness-tests
+basePath: /tests/
+schemes:
+  - https
+paths:
+ rd_metadata_ordo_hpo:
+  post:
+   parameters:
+    - name: content
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/schemas'
+   consumes:
+     - application/json
+   produces:  
+     - application/json
+   responses:
+     "200":
+       description: >-
+        The response is a binary (1/0), success or failure
+definitions:
+  schemas:
+    required:
+     - subject
+    properties:
+        subject:
+          type: Metadata RDF/Turtle file
+          description: >-
+            the Metadata RDF/Turtle file being tested
