@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
  version: 'Hvst-1.4.0:RD-R1-3-Tst-0.0.1'
- title: "FAIR Metrics Domain Specific - RD-R1-3 Metadata conforms to EJP RD model"
+ title: "FAIR Metrics Domain Specific - RD-R1.3 Metadata conforms to EJP RD model"
  x-tests_metric: 'https://w3id.org/rd-fairmetrics/RD-R1-3'
  description: >-
    A domain-specific test for metadata of resources in the Rare Disease domain. It tests if the metadata is structured conforming to the EJP RD DCAT-based metadata model. No failures in the ShEx validation of the metadata content of the resource against the EJP RD ShEx shapes, will be sufficient to pass the test.
@@ -18,7 +18,7 @@ basePath: /tests/
 schemes:
   - https
 paths:
- rd_metadata_ordo_hpo:
+ rd_metadata_ejprd_model:
   post:
    parameters:
     - name: content
