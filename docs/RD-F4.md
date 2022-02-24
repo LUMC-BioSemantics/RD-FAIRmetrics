@@ -13,7 +13,7 @@ César Henrique Bernabé ORCID:0000-0003-1795-5930
 #### Accepted: pending
 
 
-### Maturity Indicator Identifier: RD-R1 [https://w3id.org/rd-fairmetrics/RD-F4](https://w3id.org/rd-fairmetrics/RD-F4)
+### Maturity Indicator Identifier: RD-F4 [https://w3id.org/rd-fairmetrics/RD-F4](https://w3id.org/rd-fairmetrics/RD-F4)
 
 ### Use of Rare Disease (RD) specific Search Engines to find the (meta)data of the indexed resource.
 ----
