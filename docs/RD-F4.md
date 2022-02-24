@@ -1,4 +1,4 @@
-# TITLE:  FAIR Maturity Indicator RD-R1
+# TITLE:  FAIR Maturity Indicator RD-F4
 
 ## Authors:
 Núria Queralt Rosinach, ORCID:0000-0003-0169-8159
